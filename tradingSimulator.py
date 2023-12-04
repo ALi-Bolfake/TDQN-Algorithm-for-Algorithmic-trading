@@ -75,10 +75,9 @@ stocks = {
     'Nikkei 225' : 'EWJ',
     'Google' : 'GOOGL',
     'Apple' : 'AAPL',
-    'Facebook' : 'FB',
+    'Facebook' : 'META',
     'Amazon' : 'AMZN',
     'Microsoft' : 'MSFT',
-    'Twitter' : 'TWTR',
     'Nokia' : 'NOK',
     'Philips' : 'PHIA.AS',
     'Siemens' : 'SIE.DE',
@@ -90,14 +89,17 @@ stocks = {
     'HSBC' : 'HSBC',
     'CCB' : '0939.HK',
     'ExxonMobil' : 'XOM',
-    'Shell' : 'RDSA.AS',
-    'PetroChina' : 'PTR',
+    'Shell' : 'SHELL.AS',
+    'PetroChina' : 'PCCYF',
     'Tesla' : 'TSLA',
     'Volkswagen' : 'VOW3.DE',
     'Toyota' : '7203.T',
     'Coca Cola' : 'KO',
     'AB InBev' : 'ABI.BR',
-    'Kirin' : '2503.T'
+    'Kirin' : '2503.T',
+    'Bitcoin': 'BTC-USD',
+    'Binance': 'BNB-USD',
+    'Litecoin': 'LTC-USD',
 }
 
 # Dictionary listing the 5 trading indices considered as testbench
@@ -113,10 +115,9 @@ indices = {
 companies = {
     'Google' : 'GOOGL',
     'Apple' : 'AAPL',
-    'Facebook' : 'FB',
+    'Facebook' : 'META',
     'Amazon' : 'AMZN',
     'Microsoft' : 'MSFT',
-    'Twitter' : 'TWTR',
     'Nokia' : 'NOK',
     'Philips' : 'PHIA.AS',
     'Siemens' : 'SIE.DE',
@@ -128,14 +129,17 @@ companies = {
     'HSBC' : 'HSBC',
     'CCB' : '0939.HK',
     'ExxonMobil' : 'XOM',
-    'Shell' : 'RDSA.AS',
-    'PetroChina' : 'PTR',
+    'Shell' : 'SHELL.AS',
+    'PetroChina' : 'PCCYF',
     'Tesla' : 'TSLA',
     'Volkswagen' : 'VOW3.DE',
     'Toyota' : '7203.T',
     'Coca Cola' : 'KO',
     'AB InBev' : 'ABI.BR',
-    'Kirin' : '2503.T'
+    'Kirin' : '2503.T',
+    'Bitcoin': 'BTC-USD',
+    'Binance': 'BNB-USD',
+    'Litecoin': 'LTC-USD'
 }
 
 # Dictionary listing the classical trading strategies supported
