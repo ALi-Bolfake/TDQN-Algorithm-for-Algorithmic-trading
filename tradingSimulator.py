@@ -37,9 +37,9 @@ from TDQN import TDQN
 ###############################################################################
 
 # Variables defining the default trading horizon
-startingDate = '2012-1-1'
-endingDate = '2020-1-1'
-splitingDate = '2018-1-1'
+startingDate = '2014-1-1'
+endingDate = '2023-1-1'
+splitingDate = '2020-1-1'
 
 # Variables defining the default observation and state spaces
 stateLength = 30
