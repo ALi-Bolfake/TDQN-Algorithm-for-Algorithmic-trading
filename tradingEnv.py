@@ -5,7 +5,7 @@ Goal: Implement a trading environment compatible with OpenAI Gym.
 Authors: Thibaut Théate and Damien Ernst
 Institution: University of Liège
 """
-
+'2020-1-1
 ###############################################################################
 ################################### Imports ###################################
 ###############################################################################
