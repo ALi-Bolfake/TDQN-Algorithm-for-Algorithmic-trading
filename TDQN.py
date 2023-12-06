@@ -6,7 +6,7 @@ Goal: Implementing a custom enhanced version of the DQN algorithm specialized
 Authors: Thibaut Théate and Damien Ernst
 Institution: University of Liège
 """
-
+2020
 ###############################################################################
 ################################### Imports ###################################
 ###############################################################################
