@@ -26,6 +26,7 @@ from dataDownloader import CSVHandler
 from fictiveStockGenerator import StockGenerator
 
 
+endingDate = '2020-1-1'
 
 ###############################################################################
 ################################ Global variables #############################
