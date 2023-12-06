@@ -1,5 +1,5 @@
 # coding=utf-8
-
+endingDate = '2020-1-1'
 """
 Goal: Implement a trading environment compatible with OpenAI Gym.
 Authors: Thibaut Théate and Damien Ernst
