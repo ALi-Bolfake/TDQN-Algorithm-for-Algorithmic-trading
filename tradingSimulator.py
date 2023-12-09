@@ -38,9 +38,9 @@ from TDQN import TDQN
 
 # Variables defining the default trading horizon
 # Variables defining the default trading horizon
-startingDate = '2015-1-1'
-endingDate = '2023-1-1'
-splitingDate = '2021-1-1'
+startingDate = '2014-1-1'
+endingDate = '2020-1-1'
+splitingDate = '2019-6-1'
 
 # Variables defining the default observation and state spaces
 stateLength = 30
@@ -57,7 +57,7 @@ money = 100000
 # Variables specifying the default general training parameters
 bounds = [1, 30]
 step = 1
-numberOfEpisodes = 50
+numberOfEpisodes = 100
 
 # Dictionary listing the fictive stocks supported
 fictives = {
