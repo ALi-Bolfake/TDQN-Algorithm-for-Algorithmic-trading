@@ -14,7 +14,7 @@ Institution: University of Liège
 import pandas as pd
 import pandas_datareader as pdr
 import requests
-
+import yfinance as yf
 from io import StringIO
 
 
@@ -192,7 +192,7 @@ class YahooFinance:
         OUTPUTS:    - data: Pandas dataframe containing the stock market data.
         """
         
-        data = pdr.data.DataReader(marketSymbol, 'yahoo', startingDate, endingDate)
+        data = yf.download(marketSymbol, startingDate, endingDate)
         self.data = self.processDataframe(data)
         return self.data
 
@@ -205,10 +205,6 @@ class YahooFinance:
           
         OUTPUTS:    - dataframe: Processed Pandas dataframe.
         """
-        
-        # Remove useless columns
-        dataframe['Close'] = dataframe['Adj Close']
-        del dataframe['Adj Close']
         
         # Adapt the dataframe index and column names
         dataframe.index.names = ['Timestamp']
