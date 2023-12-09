@@ -244,7 +244,7 @@ class TradingSimulator:
         # TRAINING DATA
         print("\n\n\nAnalysis of the TRAINING phase time series")
         print("------------------------------------------\n")
-        trainingEnv = TradingEnv(stock, startingDate, splitingDate, 0)
+        trainingEnv = TradingEnv(stock, startingDate, splitingDate)
         timeSeries = trainingEnv.data['Close']
         analyser = TimeSeriesAnalyser(timeSeries)
         analyser.timeSeriesDecomposition()
@@ -254,7 +254,7 @@ class TradingSimulator:
         # TESTING DATA
         print("\n\n\nAnalysis of the TESTING phase time series")
         print("------------------------------------------\n")
-        testingEnv = TradingEnv(stock, splitingDate, endingDate, 0)
+        testingEnv = TradingEnv(stock, splitingDate, endingDate)
         timeSeries = testingEnv.data['Close']
         analyser = TimeSeriesAnalyser(timeSeries)
         analyser.timeSeriesDecomposition()
@@ -264,7 +264,7 @@ class TradingSimulator:
         # ENTIRE TRADING DATA
         print("\n\n\nAnalysis of the entire time series (both training and testing phases)")
         print("---------------------------------------------------------------------\n")
-        tradingEnv = TradingEnv(stock, startingDate, endingDate, 0)
+        tradingEnv = TradingEnv(stock, startingDate, endingDate)
         timeSeries = tradingEnv.data['Close']
         analyser = TimeSeriesAnalyser(timeSeries)
         analyser.timeSeriesDecomposition()
