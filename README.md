@@ -3,6 +3,9 @@ Experimental code supporting the results presented in the scientific research pa
 > Thibaut Théate and Damien Ernst. "An Application of Deep Reinforcement Learning to Algorithmic Trading." (2020).
 > [[arxiv]](https://arxiv.org/abs/2004.06627)
 
+# The authors  :
+* Mahsa Tavassoli
+* Dr. Seyed Mohammad-Mahdi Kazemi
 
 
 # Dependencies
