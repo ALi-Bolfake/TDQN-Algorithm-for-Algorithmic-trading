@@ -150,7 +150,7 @@ class TradingEnv(gym.Env):
         self.t = stateLength
         self.numberOfShares = 0
         self.transactionCosts = transactionCosts
-        self.epsilon = 0.01
+        self.epsilon = 0.1
 
         # If required, set a custom starting point for the trading activity
         if startingPoint:
