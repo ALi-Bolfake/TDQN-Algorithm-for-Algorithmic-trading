@@ -3,7 +3,7 @@
 """
 Goal: Implement a trading simulator to simulate and compare trading strategies.
 Authors: Thibaut Théate and Damien Ernst
-Institution: University of Liège
+Institution: University of Liège epsilon
 """
 
 ###############################################################################
